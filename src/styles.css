@@ -1,0 +1,81 @@
+body {
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .post-header {
+    width: 700px;
+  }
+  
+  .title {
+    font-size: 42px;
+    letter-spacing: -0.011em;
+  }
+  
+  .subtitle {
+    color: #d08d8d;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 16px;
+  }
+  
+  .author-card {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 32px;
+    .avatar {
+      border-radius: 22px;
+      overflow: hidden;
+      height: 44px;
+      width: 44px;
+    }
+    .column {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .row {
+      display: flex;
+      gap: 8px;
+    }
+    .follow-button {
+      color: #1a8917;
+    }
+    .secondary {
+      font-size: 14px;
+      color: #6b6b6b;
+    }
+  }
+  
+  .actions {
+    border-top: 1px solid rgb(242, 242, 242);
+    border-bottom: 1px solid rgb(242, 242, 242);
+    padding: 3px 8px;
+  }
+  
+  .claps {
+    display: flex;
+    align-items: center;
+  }
+  
+  .claps-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+  }
+  
+  .claps-counter {
+    font-weight: lighter;
+  }
+  
